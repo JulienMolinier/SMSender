@@ -57,6 +57,11 @@ class MyCustomFormState extends State<MyCustomForm> {
                   }
                   return null;
                 },
+                decoration: InputDecoration(
+                    icon: Icon(Icons.message),
+                    hintText: "Enter the message you want to send",
+                    labelText: "Enter here your message"
+                ),
               )),
           Expanded(
               child: Align(
